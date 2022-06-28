@@ -13,7 +13,7 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import CoffeeIcon from '@mui/icons-material/Coffee';
+import LocalCafeIcon from '@mui/icons-material/LocalCafe';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
@@ -46,7 +46,7 @@ const nav = useNavigate();
       <AppBar position="relative">
         <Toolbar>
             <Box display='flex' flexGrow={1}>
-                <CoffeeIcon sx={{ mr: 2 }} />
+                <LocalCafeIcon sx={{ mr: 2 }} />
                 <Typography variant="h6" color="inherit" noWrap>
                 Cafe X
                 </Typography>

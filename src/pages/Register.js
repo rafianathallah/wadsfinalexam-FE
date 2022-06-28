@@ -26,11 +26,7 @@ function Copyright() {
     );
   }
 
-const theme = createTheme({
-    palette: {
-        mode: 'dark',
-      },    
-});
+const theme = createTheme({});
 
 export function Register() {
   const handleSubmit = (event) => {
