@@ -6,7 +6,7 @@ import { Login } from './pages/Login'
 import { NotFound } from './pages/NotFound'
 import { Register } from './pages/Register'
 
-
+//everything taken from materialUI, images taken from the internet
 export const App = () => {
   return (
     <BrowserRouter>
